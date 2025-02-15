@@ -1,0 +1,104 @@
+h1{
+    text-align:center;
+}
+#house{
+    display:inline-block;
+    margin-left:15px;
+    position: relative;
+}
+button{
+    cursor:pointer;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: hsl(211, 100%, 70%);
+    border:none;
+    box-shadow: -06px 06px 02px rgba(0,0,0,0.1) ;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight: 02em;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    display:block;
+    padding: 10px 10px;
+    border-radius:10px;
+}
+
+#students{
+    margin-top:01px;
+    border-radius:07px;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 140px;
+    padding: 10px;
+    box-shadow: 10px 10px 04px 01px rgba(0,0,0,0.2);
+
+    position:absolute;
+    left:20px;
+}
+
+
+/*Aravali*/
+.aravali .Astudents{
+    display:none;
+}
+.aravali:hover .Astudents{
+    display: block;
+}
+.aravali:hover button{
+    background-color: rgb(4, 4, 139);
+    color:white;
+}
+.aravali a:hover{
+    background-color: hsl(0, 0%, 98%);
+    color:blue;
+}
+
+/*Nilagiri*/
+.Nilagiri .Nstudents{
+    display:none;
+}
+.Nilagiri:hover .Nstudents{
+    display: block;
+}
+.Nilagiri:hover button{
+    background-color: green;
+    color:white;
+}
+.Nilagiri a:hover{
+    background-color: hsl(0, 0%, 98%);
+    color:green;
+}
+
+/*Shivalik*/
+.Shivalik .Sstudents{
+    display:none;
+}
+.Shivalik:hover .Sstudents{
+    display: block;
+}
+.Shivalik:hover button{
+    background-color: red;
+    color:white;
+}
+.Shivalik a:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: red;
+}
+
+/*Udaigiri*/
+.Udaigiri .Ustudents{
+    display:none;
+}
+.Udaigiri:hover .Ustudents{
+    display: block;
+}
+.Udaigiri:hover button{
+    background-color: hsl(55, 100%, 50%);
+    color:white;
+}
+.Udaigiri a:hover{
+    background-color: hsl(0, 0%, 98%);
+    color:hsl(55, 100%, 40%);
+}
